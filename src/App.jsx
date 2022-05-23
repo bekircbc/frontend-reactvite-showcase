@@ -12,7 +12,6 @@ function App() {
       <Routes>
         <Route path="/welcome" element={<PageWelcome />} />
         <Route path="/books" element={<PageBooks />} />
-        <Route path="/" element={<Navigate to="welcome" replace />} />
       </Routes>
     </div>
   );
