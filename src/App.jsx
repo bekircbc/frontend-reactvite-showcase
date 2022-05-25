@@ -10,8 +10,10 @@ function App() {
         <img src="images/icon.png" alt="logo" />
         <h1>Fronted React Vite Showcase</h1>
       </div>
+      <hr />
       <NavLink to="/welcome">Welcome</NavLink> |{" "}
       <NavLink to="/books">Books</NavLink>
+      <hr />
       <Routes>
         <Route path="/welcome" element={<PageWelcome />} />
         <Route path="/books" element={<PageBooks />} />
