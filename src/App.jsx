@@ -6,7 +6,10 @@ import { NavLink, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h1>React Site</h1>
+      <div className="title">
+        <img src="images/icon.png" alt="logo" />
+        <h1>Fronted React Vite Showcase</h1>
+      </div>
       <NavLink to="/welcome">Welcome</NavLink> |{" "}
       <NavLink to="/books">Books</NavLink>
       <Routes>
